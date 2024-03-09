@@ -36,19 +36,20 @@ const Contact = () => {
   return (
     <div className={styles.container}>
       <div className={styles.contact}>
-        <h2>Contact</h2>
-        <p>
-          <strong>Address:</strong> Protum Services Ltd. Bruce, Ballygarett,
-          Co.Wexford.
-        </p>
-        <p>
-          <strong>Phone:</strong> 053 94 31 003 / 087 660 1428
-        </p>
-        <p>
-          <strong>Fax:</strong> 053 94 27 908
-        </p>
+        <h2 className="text-center mb-4">Contact</h2>
+        <div className={styles.contactDetails}>
+          <div className={styles.address}>
+            <h3>Address:</h3>
+            <p>Protum Services Ltd. Bruce, Ballygarett, Co.Wexford.</p>
+          </div>
+          <div className={styles.contactInfo}>
+            <h3>Contact Details:</h3>
+            <p>Phone: 053 94 31 003 / 087 660 1428</p>
+            <p>Fax: 053 94 27 908</p>
+          </div>
+        </div>
 
-        <h3>Contact Form</h3>
+        <h3 className="mt-5 text-center">Send us an email</h3>
         <form onSubmit={handleSubmit} className={styles.form}>
           <div className={styles.formGroup}>
             <label htmlFor="name">Enter your Name:</label>

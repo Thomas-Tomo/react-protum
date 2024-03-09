@@ -45,3 +45,34 @@
 .button:hover {
   background-color: #0e549e;
 }
+
+.contactDetails {
+  display: flex;
+  justify-content: space-between;
+}
+
+.address,
+.contactInfo {
+  flex: 1;
+}
+
+.address h3,
+.contactInfo h3 {
+  margin-bottom: 10px;
+}
+
+.address p,
+.contactInfo p {
+  margin: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .contactDetails {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .formGroup {
+    text-align: center;
+  }
+}
