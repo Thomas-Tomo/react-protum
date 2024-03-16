@@ -1,0 +1,41 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.container h1,
+.container h2,
+.container h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.container p {
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.container strong {
+  font-weight: bold;
+}
+
+.image {
+  width: 16rem;
+  height: 16rem;
+  object-fit: cover; /* Ensure the image covers the entire container */
+  margin-bottom: 20px;
+}
+
+.smallerImage {
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+}

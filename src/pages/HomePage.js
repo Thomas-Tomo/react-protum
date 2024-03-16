@@ -3,7 +3,6 @@ import banner from "../assets/protum-banner.jpg";
 import { Container } from "react-bootstrap";
 import styles from "../styles/HomePage.module.css";
 import { Card } from "react-bootstrap";
-import Button from "react-bootstrap/Button";
 import c1 from "../assets/damp-proofing.jpg";
 import c2 from "../assets/timber-treatment.jpg";
 import c3 from "../assets/condensation.jpg";
@@ -42,7 +41,7 @@ const HomePage = () => {
 
           <Card.Body>
             Protum Services are Specialists in damp proofing, dry rot treatment,
-            wet rot treatment, timber treatments, and stuctural waterproofing.
+            wet rot treatment, timber treatments, and structural waterproofing.
             We are specialists in Ireland for; damp proofing, water proofing,
             below ground tanking, and for treating woodworm, wet rot, dry rot,
             and rising damp.
@@ -52,30 +51,30 @@ const HomePage = () => {
         <div className={styles.imageGallery}>
           <div className={styles.imageContainer}>
             <div className={styles.itemContainer}>
-              <img src={c1} alt="Image 1" className={styles.round} />
+              <img src={c1} alt="Damp Proofing" className={styles.round} />
               <h3>Damp Proofing</h3>
             </div>
             <div className={styles.itemContainer}>
-              <img src={c2} alt="Image 2" className={styles.round} />
+              <img src={c2} alt="Timber Treatment" className={styles.round} />
               <h3>Timber Treatment</h3>
             </div>
             <div className={styles.itemContainer}>
-              <img src={c3} alt="Image 3" className={styles.round} />
+              <img src={c3} alt="Condensation" className={styles.round} />
               <h3>Condensation</h3>
             </div>
           </div>
 
           <div className={styles.imageContainer}>
             <div className={styles.itemContainer}>
-              <img src={c4} alt="Image 5" className={styles.round} />
+              <img src={c4} alt="Masonry" className={styles.round} />
               <h3>Masonry</h3>
             </div>
             <div className={styles.itemContainer}>
-              <img src={c5} alt="Image 6" className={styles.round} />
+              <img src={c5} alt="New Builds" className={styles.round} />
               <h3>New Builds</h3>
             </div>
             <div className={styles.itemContainer}>
-              <img src={c6} alt="Image 7" className={styles.round} />
+              <img src={c6} alt="Plastering" className={styles.round} />
               <h3>Plastering</h3>
             </div>
           </div>

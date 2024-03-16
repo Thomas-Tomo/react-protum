@@ -7,6 +7,7 @@ import Footer from "./components/Footer";
 import Container from "react-bootstrap/Container";
 import styles from "./App.module.css";
 import Contact from "./components/Contact";
+import RisingDamp from "./pages/RisingDamp";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <Route path="/" element={<HomePage />} />{" "}
             {/* Use "element" prop instead of "component" */}
             <Route path="/contact" element={<Contact />} />
+            <Route path="/rising-damp" element={<RisingDamp />} />
           </Routes>
         </Container>
         <Footer />
