@@ -25,7 +25,7 @@ const NavigationBar = () => {
                 <NavDropdown.Item as={Link} to="/rising-damp">
                   Rising Damp
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.4.2">
+                <NavDropdown.Item as={Link} to="/penetrating-damp">
                   Penetrating Damp
                 </NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.4.2">
