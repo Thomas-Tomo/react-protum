@@ -32,6 +32,7 @@
   height: 10rem;
   object-fit: cover;
   margin-bottom: 20px;
+  margin: 5px;
 }
 
 @media (max-width: 768px) {
